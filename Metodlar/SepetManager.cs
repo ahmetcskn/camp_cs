@@ -16,5 +16,6 @@ namespace Metodlar
         {
             Console.WriteLine("Sepete eklendi : " + urunAdi);
         }
+        static
     }
 }
