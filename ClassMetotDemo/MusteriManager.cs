@@ -6,9 +6,9 @@ namespace ClassMetotDemo
 {
     class MusteriManager
     {
-        public void musteriEkle()
+        public void musteriEkle(Musteri musteri)
         {
-
+            Console.WriteLine(musteri.Ad +" "+ musteri.Soyad + "Adlı kullanıcı sisteme eklendi. ID : " + musteri.id);
         }
     }
 }
